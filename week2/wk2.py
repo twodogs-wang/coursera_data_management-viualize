@@ -5,7 +5,8 @@ def __my_func():
     data = data[["DIAM_CIRCLE_IMAGE", "DEPTH_RIMFLOOR_TOPOG","LONGITUDE_CIRCLE_IMAGE","LATITUDE_CIRCLE_IMAGE"]]
     for col in data.columns:
         print(data[col].value_counts())
-
+        temp = data[col].value_counts().rename_axis(col+"unique_values").reset_index(name='counts')
+        temp.to_csv(col+"_output.csv")
 if __name__ == "__main__":
     __my_func()
 
