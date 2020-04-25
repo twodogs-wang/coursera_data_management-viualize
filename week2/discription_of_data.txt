@@ -1,0 +1,5 @@
+Description:
+
+longitude & latitude: based on the frequency distribution of these two variables. It is easy to find out that the area around (-53,-23) has much more craters than others.
+
+In terms of DIAM_CIRCLE_IMAGE, it could be observed that most craters are about 1.0 diameter size.
