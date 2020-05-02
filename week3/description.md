@@ -21,3 +21,24 @@ based on the figure above, we observe that there are many 0s. But the sizes of c
 we have replaced them with nan, so the updated will be look like below:
 
 ![Xnip2020-05-01_22-02-43.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week3/figures/Xnip2020-05-01_22-02-43.jpg)
+
+# Code:
+
+```python
+import pandas as pd
+import numpy as np
+def __my_func():
+    data = pd.read_csv("data.csv")
+    data = data[["DIAM_CIRCLE_IMAGE", "DEPTH_RIMFLOOR_TOPOG","LONGITUDE_CIRCLE_IMAGE","LATITUDE_CIRCLE_IMAGE"]]
+    data[data["DEPTH_RIMFLOOR_TOPOG"]==0.00]=np.nan
+   
+    data["SIZE"] = data["DEPTH_RIMFLOOR_TOPOG"]*data["DIAM_CIRCLE_IMAGE"]*data["DIAM_CIRCLE_IMAGE"]
+    print(data["SIZE"].value_counts())
+    for col in data.columns:
+        print(data[col].value_counts())
+    
+
+if __name__ == "__main__":
+    __my_func()
+```
+
