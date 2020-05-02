@@ -34,8 +34,8 @@ def __my_func():
    
     data["SIZE"] = data["DEPTH_RIMFLOOR_TOPOG"]*data["DIAM_CIRCLE_IMAGE"]*data["DIAM_CIRCLE_IMAGE"]
     print(data["SIZE"].value_counts())
-    for col in data.columns:
-        print(data[col].value_counts())
+    #or col in data.columns:
+        #print(data[col].value_counts())
     
 
 if __name__ == "__main__":
