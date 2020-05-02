@@ -37,3 +37,10 @@ explain: since the depth & diameter are always linked together. Larger diameter 
 ![size_vs_diameter.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/size_vs_diameter.png)
 
 ![depth_vs_diameter.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/depth_vs_diameter.png)
+
+## center and spread:
+
+Variance is used to estimate the spread level:
+
+
+

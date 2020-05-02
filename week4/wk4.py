@@ -42,15 +42,24 @@ def __mean_and_median(data):
     #print("mode")
     #print(np.mode(data))
 
+
+def __spread(data):
+    for col in data.columns:
+        #print("---------------------------",col,"\n")
+        temp = np.var(data[col])
+        print("Variance of",col, "is:")
+        print(temp)
+        print("-------------------------------------------------")
     
 if __name__ == "__main__":
     data = pd.read_csv("data.csv")
     data = data[["DIAM_CIRCLE_IMAGE", "DEPTH_RIMFLOOR_TOPOG","LONGITUDE_CIRCLE_IMAGE","LATITUDE_CIRCLE_IMAGE"]]
     data[data["DEPTH_RIMFLOOR_TOPOG"]==0.00]=0.1
     data["SIZE"] = data["DEPTH_RIMFLOOR_TOPOG"]*data["DIAM_CIRCLE_IMAGE"]
-    for col in data.columns:
-        print("------------------------------------------","\n",col)
-        __mean_and_median(data[col])
+    __spread(data)
+    #for col in data.columns:
+        #print("------------------------------------------","\n",col)
+        #__mean_and_median(data[col])
     #__latitude_longtitude(data["LONGITUDE_CIRCLE_IMAGE"],data["LATITUDE_CIRCLE_IMAGE"])
     #__size_distribution(data["SIZE"])
     #print(data["SIZE"].value_counts())
