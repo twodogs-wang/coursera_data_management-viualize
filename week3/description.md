@@ -20,3 +20,4 @@ based on the figure above, we observe that there are many 0s. But the sizes of c
 
 we have replaced them with nan, so the updated will be look like below:
 
+![Xnip2020-05-01_22-02-43.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week3/figures/Xnip2020-05-01_22-02-43.jpg)
