@@ -46,8 +46,8 @@ def __mean_and_median(data):
 def __spread(data):
     for col in data.columns:
         #print("---------------------------",col,"\n")
-        temp = np.var(data[col])
-        print("Variance of",col, "is:")
+        temp = np.median(data[col])
+        print("centre of",col, "is:")
         print(temp)
         print("-------------------------------------------------")
     

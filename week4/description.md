@@ -24,7 +24,7 @@ We can see from the picture below, craters are spread kind of evenly.
 
 ![L_R.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/L_R.png)
 
-size:
+### size:
 
 The size of craters, as mentioned above, most of them are small sizes which means the distribution graph looks like "one bar". But if we look at the frequency distribution data and the relationship picture, we can observe this variable can be used to analysis relative age of mars surfaces. 
 
@@ -42,5 +42,12 @@ explain: since the depth & diameter are always linked together. Larger diameter 
 
 Variance is used to estimate the spread level:
 
+![var.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/var.png)
 
+center:  centers are just medians
 
+## Summary and conclusion:
+
+Based on these data we can estimate the relative age of the surfaces of mars. The method is quite intuition. The surface with more bigger craters and more numbers of crater is likely older than the other surface. 
+
+On the other hand, we can use the data to compare with the craters on the moon. From this comparison we could estimate the absolute age of mars surfaces since the absolute age of the moon we already known, which was achieved by carbon analysis.
