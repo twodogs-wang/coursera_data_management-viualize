@@ -3,7 +3,7 @@ import numpy as np
 def __my_func():
     data = pd.read_csv("data.csv")
     data = data[["DIAM_CIRCLE_IMAGE", "DEPTH_RIMFLOOR_TOPOG","LONGITUDE_CIRCLE_IMAGE","LATITUDE_CIRCLE_IMAGE"]]
-    data[data["DEPTH_RIMFLOOR_TOPOG"]==0.00]=0.01
+    data[data["DEPTH_RIMFLOOR_TOPOG"]==0.00]=np.nan
    
     data["SIZE"] = data["DEPTH_RIMFLOOR_TOPOG"]*data["DIAM_CIRCLE_IMAGE"]*data["DIAM_CIRCLE_IMAGE"]
     print(data["SIZE"].value_counts())

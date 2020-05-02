@@ -1,6 +1,6 @@
 # count missing data:
 
-As we can see from figure below: there are no missing data in my selected variables. But there are a lot of 0s in DEPTH, which is no possible. We replace them with nan for further analysis.
+As we can see from figure below: there are no missing data in my selected variables. But there are a lot of 0s in DEPTH, which is no possible. We replace them with 0.01 for further analysis. This is because the unit of depth is kilometer, 0 means a small value but it could never be 0. This action may affect the accuracy of further actions, but we can not set it to nan since the percentage of 0s is really high!
 
 ![Xnip2020-05-01_21-15-02.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week3/figures/Xnip2020-05-01_21-15-02.jpg)
 
