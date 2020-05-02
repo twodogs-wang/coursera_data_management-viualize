@@ -18,9 +18,9 @@ A new variable called "size" is created based on the diameter and the depth of c
 
 based on the figure above, we observe that there are many 0s. But the sizes of craters can not be zeroes. The reason for this is there are many 0s in DEPTH column. Obviously, DEPTH can not be 0. 
 
-we have replaced them with nan, so the updated will be look like below:
+we have replaced them with 0.01, so the updated will be look like below:
 
-![Xnip2020-05-01_22-02-43.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week3/figures/Xnip2020-05-01_22-02-43.jpg)
+![Xnip2020-05-01_22-02-43.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week3/figures/Xnip2020-05-01_22-14-06.jpg)
 
 # Code:
 
