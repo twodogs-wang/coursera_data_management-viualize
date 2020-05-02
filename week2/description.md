@@ -17,3 +17,7 @@ it could be observed that most craters are about 1.0 diameter size.
 most depth values are 0 which are not likely. It must be values are missed.
 
 ![Xnip2020-05-01_21-41-02.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week2/figure/Xnip2020-05-01_21-41-02.jpg)
+
+## program output:
+
+![Xnip2020-05-01_21-47-18.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week2/figure/Xnip2020-05-01_21-47-18.jpg)
