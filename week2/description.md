@@ -21,3 +21,7 @@ most depth values are 0 which are not likely. It must be values are missed.
 ## program output:
 
 ![Xnip2020-05-01_21-47-18.jpg](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week2/figure/Xnip2020-05-01_21-47-18.jpg)
+
+## Summary:
+
+As data shown above, the craters are spread evenly. However, we still can find that there is an area with high density. In addition, we could find that most craters are small sizes. Which is the case. We could introduce some new variables like "size" for example for further analysis.
