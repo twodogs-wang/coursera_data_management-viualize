@@ -48,3 +48,16 @@ if __name__ == "__main__":
     
 ```
 
+# summary:
+
+Frequency distributions are shown below:
+
+![depth.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/depth.png)
+
+![diameter.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/diameter.png)
+
+![size.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/size.png)
+
+![L_R.png](https://github.com/twodogs-wang/coursera_data_management-viualize/blob/master/week4/figures/L_R.png)
+
+As shown above, the craters are spread kind of evenly. In addition, the craters are mostly small size ones. In addition, if we take a look we will find that 80% of depth are 0 since the unit is km. We should replace these 0 values for further analysis.

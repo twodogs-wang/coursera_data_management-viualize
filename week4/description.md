@@ -50,4 +50,6 @@ center:  centers are just medians
 
 Based on these data we can estimate the relative age of the surfaces of mars. The method is quite intuition. The surface with more bigger craters and more numbers of crater is likely older than the other surface. 
 
+In details, we can see there is an area with high density craters which tends to be much older than the other areas. 
+
 On the other hand, we can use the data to compare with the craters on the moon. From this comparison we could estimate the absolute age of mars surfaces since the absolute age of the moon we already known, which was achieved by carbon analysis.
